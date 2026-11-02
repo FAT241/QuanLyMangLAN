@@ -1,0 +1,13 @@
+http.port=9877
+udp.port=9876
+token=lan-demo-token
+heartbeat.seconds=3
+offline.seconds=10
+ping.seconds=5
+activity.seconds=15
+database.url=jdbc:postgresql://127.0.0.1:5432/lan_manager
+database.user=lan_manager
+# Dien mat khau PostgreSQL hoac dat LAN_DB_PASSWORD trong cau hinh Run cua IDE.
+database.password=
+evidence.path=data/evidence
+evidence.retention.days=0

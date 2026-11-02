@@ -1,0 +1,31 @@
+# Ban build va du lieu tren tung may
+target/
+data/
+*.log
+__pycache__/
+
+# Tai lieu va cong cu ca nhan
+*.[mM][dD]
+/docs/
+/.tools/
+/.vscode/
+/.idea/
+*.iml
+/.agents/
+/.codex/
+/.claude/
+/.cursor/
+/.github/modernize/
+/.github/agents/
+/.github/instructions/
+
+# Cau hinh noi bo; chi dua file mau len kho ma nguon
+.env
+.env.*
+!.env.example
+client/config/client-local.properties
+server/config/server-local.properties
+server/config/database-admin-local.properties
+server/config/server-local.properties.backup-*
+server/database/*-local.sql
+server/database/setup-local-*/

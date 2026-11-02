@@ -1,0 +1,6 @@
+Lucide icons
+https://lucide.dev
+Repository: https://github.com/lucide-icons/lucide
+Source: https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/
+License: see LICENSE.txt
+Downloaded: 2026-11-02

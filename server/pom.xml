@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.lanmanager</groupId>
+    <artifactId>lan-manager</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>server</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf-extras</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.lanmanager</groupId>
+      <artifactId>common</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+    </dependency>
+  </dependencies>
+</project>
